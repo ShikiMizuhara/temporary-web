@@ -1,58 +1,51 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
-<title>阎王-英雄事迹</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eye GIF</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+        
+        .gif-container {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .eye-gif {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            aspect-ratio: 5/4;
+            object-fit: contain;
+        }
+        
+        @media (max-width: 400px) {
+            .eye-gif {
+                max-width: 90vw;
+            }
+        }
+    </style>
 </head>
 <body>
-<div id="container">
-	<div id="nav">
-		<a href="#">首页</a> | 
-		<a href="#">个人简介</a> | 
-		<a href="#">英勇事迹</a> | 
-		<a href="#">荣誉奖项</a> | 
-		<a href="#">图片集锦</a> | 
-		<a href="#">联系我们</a>
-	</div>
-	<div id="content">
-		<div id="left">
-			<img src="images/jmoore.jpg" alt="詹妮弗·摩尔" />
-		</div>
-		<div id="right">
-			<h2>平凡中的伟大：严狗的守护故事</h2>
-				
-				<p>严狗，本名严浩益，是社区里一位默默无闻的普通居民。然而，在邻居们的心中，他却是一位不折不扣的英雄。多年来，他始终坚守在社区安全的第一线，无论严寒酷暑，总能看到他巡逻的身影。</p>
-				
-				<p>去年冬天的一个深夜，小区突发火灾。在众人惊慌失措之际，严狗没有丝毫犹豫，第一个冲进浓烟滚滚的楼道。他挨家挨户敲门呼喊，成功疏散了整栋楼的居民。当消防员赶到时，他发现严狗为了救助一位行动不便的老人，自己的手臂已被严重烫伤，但他却笑着说：“人没事就好。”</p> 
-				<p><严狗部分生平照片></p>
-				
-			
-			<div id="thumbnails">
-			
-				<ul class="thumbnails">
-					<li><img src="images/thumb1.jpg" alt="严狗" /></li>
-					<li><img src="images/thumb2.jpg" alt="严狗" /></li>
-					<li><img src="images/thumb4.jpg" alt="严狗" /></li>
-				</ul>
-				
-			</div>
-				
-			<div style="clear:both"></div>
-				
-			<p>除了危急时刻的挺身而出，严狗在日常生活中也乐于助人。他自发组织了社区义务维修队，免费为独居老人修理水电设施；他设立了“爱心早餐点”，常年为环卫工人们提供热腾腾的早饭。他说：“能力不分大小，只要能为别人做点事，心里就踏实。”</p>
-			<p>严狗的事迹传开后，感动了无数人。他并没有因此骄傲自满，依旧每天穿着那件洗得发白的马甲，穿梭在大街小巷。他用实际行动诠释了什么是责任与担当，成为了我们身边最温暖的榜样。</p>
-			
-		</div>
-	</div>
-	<div id="footerbg">
-		<div id="footer">
-			<a href="#">首页</a> | 
-			<a href="#">个人简介</a> | 
-			<a href="#">英勇事迹</a> | 
-			<a href="#">荣誉奖项</a> | 
-			<a href="#">图片集锦</a> | 
-		</div>
-	</div>
-</div>
+    <div class="gif-container">
+        <img src="images/eye.gif" alt="" class="eye-gif">
+    </div>
 </body>
 </html>
